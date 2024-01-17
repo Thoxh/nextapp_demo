@@ -133,6 +133,7 @@ export default function Home() {
                 </CardFooter>
                 </form>
             </Form>
+            <Toaster />
           </Card>
         </TabsContent>
         <TabsContent value="password">
@@ -159,7 +160,7 @@ export default function Home() {
           </Card>
         </TabsContent>
       </Tabs>
-      <Toaster />
+      
     </main >
   )
 }
